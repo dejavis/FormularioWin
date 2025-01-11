@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lblOutput
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(186, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre";
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutput.Location = new System.Drawing.Point(186, 22);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(93, 25);
+            this.lblOutput.TabIndex = 0;
+            this.lblOutput.Text = "Nombre";
             // 
             // txtNombre
             // 
@@ -67,7 +67,7 @@
             this.ClientSize = new System.Drawing.Size(706, 320);
             this.Controls.Add(this.btnEnviar);
             this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblOutput);
             this.Name = "Form1";
             this.Text = "Mi primer Formulario VB";
             this.ResumeLayout(false);
@@ -77,7 +77,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblOutput;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button btnEnviar;
     }
