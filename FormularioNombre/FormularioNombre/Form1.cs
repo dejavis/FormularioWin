@@ -19,7 +19,8 @@ namespace FormularioNombre
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola mundo");
+            //MessageBox.Show("Hola mundo");
+            MessageBox.Show(txtNombre.Text);
         }
     }
 }
