@@ -19,7 +19,7 @@ namespace FormularioNombre
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            lblOutput.Text = txtNombre.Text;
+            
         }
     }
 }
